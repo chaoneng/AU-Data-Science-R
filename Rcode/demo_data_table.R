@@ -6,8 +6,8 @@ flights<-data.table(flights)
 
 class(flights)
 
-#Æ[¹î­È¿z
+#è§€å¯Ÿå€¼ç¯©
 flights[grepl('6',month)]
 
-#i,jÆ[¹î­È¿z
+#i,jè§€å¯Ÿå€¼ç¯©
 flights[grepl('JFK',origin)&dest=="LAX"]
